@@ -1,0 +1,9 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.tabFocusMode": true
+}

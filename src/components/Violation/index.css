@@ -1,0 +1,12 @@
+.MainDiv {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	/* border:1px solid black; */
+	width: 95vw;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	/* padding-left: 2vw; */
+	padding-right: 2vw;
+}

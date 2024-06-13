@@ -1,0 +1,39 @@
+.navBar {
+	color: white;
+	background-color: #202c9d;
+}
+.SupportMainDiv {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	/* border:1px solid black; */
+	width: 95vw;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	/* padding-left: 2vw; */
+	padding-right: 2vw;
+}
+
+.SupportInnerDiv {
+	box-shadow: 5px 10px 8px 10px #888888;
+	border-radius: 5vh;
+}
+.element {
+	border: 3px solid skyblue;
+}
+.ant-modal-content {
+	border: 3px solid skyblue !important;
+}
+.ant-modal-title {
+	font-size: x-large;
+	font-family: "Roboto Mono, monospace";
+	font-style: italic;
+	color: slategray !important;
+}
+.NavbarItems {
+	background-color: azure;
+	color: black;
+	border-radius: 5px;
+}
