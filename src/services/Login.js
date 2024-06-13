@@ -41,12 +41,10 @@ const loginFetch = async ({ email, password }) => {
       Request,
     })
     .then(async (res) => {
-      console.log("responnse of login ", res.data);
       let { message, statusCode } = res.data;
       let decryptedResponse = await decryptRequest(res.data.data);
       localStorage.setItem("token", JSON.parse(decryptedResponse));
       let tokenData = jwt_decode(JSON.parse(decryptedResponse));
-      console.log("Token Data ---> ", tokenData);
       return { message, statusCode };
     })
     .catch((err) => {
